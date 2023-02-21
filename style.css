@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    max-width: 100px;
+    border: 2px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+}
+
+@keyframes example {
+    100%  {color: red}
+  }
+
+.exclamation {
+    font-size: 72px;
+    animation-name: example;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite
+}
+
+#myMap {
+    min-height: 500px;
+}
+
+.charts {
+    min-height: 500px;
+}
+
+.container {
+    z-index: 9;
+    position: relative;
+}
+
